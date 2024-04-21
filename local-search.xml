@@ -11,10 +11,16 @@
     <content type="html"><![CDATA[<p>开源社区作业测试</p>]]></content>
     
     
+    <categories>
+      
+      <category>Homework</category>
+      
+    </categories>
+    
     
     <tags>
       
-      <tag>algorithms</tag>
+      <tag>Algorithms</tag>
       
     </tags>
     
