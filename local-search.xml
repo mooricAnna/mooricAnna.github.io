@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Unsupervised RL Paper List</title>
+    <link href="/2024/04/21/Unsupervised-RL-Paper-List/"/>
+    <url>/2024/04/21/Unsupervised-RL-Paper-List/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Unsupervised-RL-Paper-List"><a href="#Unsupervised-RL-Paper-List" class="headerlink" title="Unsupervised RL Paper List"></a>Unsupervised RL Paper List</h1><p><strong>Predictable MDP Abstraction for Unsupervised Model-Based RL</strong><br>Abs: Skill learning and curiosity for Model-based RL<br><a href="https://arxiv.org/abs/2302.03921">https://arxiv.org/abs/2302.03921</a></p><p><strong>Efficient Exploration via State Marginal Matching</strong><br>Abs: 将基于predict error的exploration转变为基于minimax博弈问题的exploration。同时引入target distribution来引导exploration，使max-entropy exploration可以转变为goal-conditional exploration<br><a href="https://arxiv.org/abs/1906.05274">https://arxiv.org/abs/1906.05274</a></p><p><strong>Reinforcement learning with prototypical representations</strong><br>Abs: 对已探索的状态空间进行聚类，exploration policy需要最大化k个类的熵。该算法使用SwAV加速表征学习，通过最大化聚类的熵实现unsupervised exploration<br><a href="https://arxiv.org/abs/2102.11271">https://arxiv.org/abs/2102.11271</a></p><p><strong>Behavior From the Void: Unsupervised Active Pre-Training</strong><br>Abs: 对比学习head+内在奖励设计来驱动无监督探索。内在奖励由minibatch内样本间的距离来定义，样本间的平均距离越大，奖励越大<br><a href="https://arxiv.org/abs/2103.04551">https://arxiv.org/abs/2103.04551</a></p><p><strong>Prototypical Context-Aware Dynamics Generalization for High-Dimensional Model-Based Reinfocement Learning</strong><br>Abs: 利用SwAV对轨迹进行无监督聚类，学习当前轨迹的context，提升智能体对未见过的动态环境的泛化能力<br><a href="https://arxiv.org/abs/2211.12774">https://arxiv.org/abs/2211.12774</a></p><p><strong>DreamerPro: Reconstruction-Free Model-Based Reinforcement Learning with Prototypical Representations</strong><br>Abs: 利用SwAV对obs的正负样本对进行聚类，同时学习动态相关的时序特征与图像特征，提升state abstraction能力，进而提升泛化能力<br><a href="https://arxiv.org/abs/2110.14565">https://arxiv.org/abs/2110.14565</a></p><p><strong>URLB: Unsupervised Reinforcement Learning Benchmark</strong><br>Abs: 基于dm_control的无监督RL Benchmark<br><a href="https://arxiv.org/pdf/2110.15191.pdf">https://arxiv.org/pdf/2110.15191.pdf</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Learning</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Algorithms</tag>
+      
+      <tag>Reinforcement Learning</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>hw_report</title>
     <link href="/2024/04/21/hw-report/"/>
     <url>/2024/04/21/hw-report/</url>
